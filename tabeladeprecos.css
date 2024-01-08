@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.limitar {
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+
+.topo {
+  background-color: #2f86d6;
+}
+
+.container_topo {
+  position: relative;
+  padding: 35px 0px;
+}
+
+.topo_logo {
+  position: relative;
+}
+
+.topo_logo img {
+  width: 80px;
+}
+
+.topo_logo div {
+  position: absolute;
+  top: 0;
+  left: 95px;
+}
+
+.topo_links {
+  position: absolute;
+  top: 65px;
+  right: 0;
+}
+
+.topo_logo p {
+  color: #fff;
+  font-weight: 600;
+}
+
+.topo_links a {
+  font-size: 18px;
+  padding: 10px;
+  text-decoration: none;
+  font-weight: 600;
+  color: #fff;
+}
+
+
+
+.conteudo_principal {
+  padding: 100px 0px;
+}
+
+.conteudo_principal table{
+  margin: auto;
+}
+
+.celula_escondida {
+  visibility: hidden;
+}
+
+.celula_cabeçalho {
+  text-align: center;
+  padding: 20px 40px;
+  border-bottom: 1px solid #f1f3f7;
+  border-right: 1px solid #f1f3f7;
+  background-color: #f1f3f7;
+}
+
+.celula_cabeçalho p {
+  font-size: 14px;
+  font-weight: 500;
+  color: #a8a4a4;
+}
+
+.celula_cabeçalho h2 {
+  font-size: 36px;
+}
+
+table tbody td {
+  text-align: center;
+  padding: 20px 40px;
+  border-bottom: 1px solid #f1f3f7;
+  border-right: 1px solid #f1f3f7;
+}
+
+.primeira_celula {
+  background-color: #f1f3f7;
+  font-weight: 500;
+  text-align: left;
+}
+
+.marcador_azul {
+  width: 20px;
+  height: 20px;
+  margin: auto;
+  background-color: #2f86d6;
+  border-radius: 100px;
+}
+
+
+
+.rodape {
+  padding-top: 70px;
+  background-color: #2f86d6;
+}
+
+.rodape_logo {
+  position: relative;
+  width: 320px;
+  margin: auto;
+}
+
+.rodape_logo img {
+  width: 80px;
+}
+
+.rodape_logo div {
+  position: absolute;
+  top: 0;
+  left: 95px;
+}
+
+.rodape_logo p {
+  text-align: center;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.paragrafo_rodape {
+  text-align: center;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  margin: 20px 0 70px;
+}
+
+.container_credito {
+  width: 100%;
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+  padding: 20px 0px;
+  background-color: #fff;
+}
+
+.container_credito span {
+  color: #2f86d6;
+}
